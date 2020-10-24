@@ -47,7 +47,7 @@ export const fetchWeather = (
   dispatch(setIsLoading(true))
   axios
     .get(
-      `http://api.weatherapi.com/v1/current.json?key=d6e26c5b701f4e56bae125510202310&q=${city}`,
+      `https://api.weatherapi.com/v1/current.json?key=d6e26c5b701f4e56bae125510202310&q=${city}`,
       {
         headers: {
           'Access-Control-Allow-Origin': 'http://localhost:3000',
